@@ -8,7 +8,7 @@ const fetchData = (url_api) => {
             if(xhttp.readyState === 4){
                 (xhttp.status === 200)
                     ? resolve(JSON.parse(xhttp.responseText))
-                    : resolve(new Error('Error' + url_api))
+                    : reject(new Error('Error' + url_api))
             }
         });
         xhttp.send();
