@@ -6,7 +6,8 @@
   "scripts": {
     "callback": "node src/callback/index.js",
     "callback:challenge": "node src/callback/challenge.js",
-    "Promise": "node src/Promise/index.js"
+    "Promise": "node src/Promise/index.js",
+    "Promise:challenge": "node src/Promise/challenge.js"
   },
   "keywords": [
     "callbacks",
